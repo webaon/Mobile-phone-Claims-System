@@ -1,0 +1,10 @@
+    </div>
+  </div>
+</body>
+</html>
+<?php
+if(isset($_SESSION['flash'])){
+    unset($_SESSION['flash']);
+    session_write_close();
+}
+?>
